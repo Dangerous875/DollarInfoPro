@@ -237,7 +237,7 @@ class MainActivity : AppCompatActivity() {
         updateDate()
         binding.etUruValue.setText(dollarUruguay.toString())
         binding.etEeuuValue.setText(dollar.toString())
-        binding.etEurValue.setText((dollarArgentina / dollarEUR).toString())
+        binding.etEurValue.setText(roundToTwoDecimals((dollarArgentina / dollarEUR)))
     }
 
     private fun updateDate() {
@@ -247,7 +247,7 @@ class MainActivity : AppCompatActivity() {
 //            val formato = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", Locale.getDefault())
             val formato = SimpleDateFormat("HH:mm", Locale.getDefault())
             val hora = formato.format(calendar.time)
-            supportActionBar?.title = "Actualización: $date, $hora hs"
+            supportActionBar?.title = "Actualización: $date , $hora hs"
         }
     }
 
