@@ -18,7 +18,7 @@ class DollarEURActivity : AppCompatActivity() {
         setContentView(binding.root)
         date = intent.getStringExtra("DATE").toString()
         time = intent.getStringExtra("TIME").toString()
-        supportActionBar?.title = "Dolar EUR, Fecha: $date"
+        supportActionBar?.title = "Cambio EUR, Fecha: $date"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         chargeItems()
     }

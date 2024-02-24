@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#232222"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -17,6 +18,7 @@
         android:layout_marginBottom="16dp"
         android:elevation="24dp"
         app:cardCornerRadius="8dp"
+        app:cardBackgroundColor="#616060"
         app:layout_constraintBottom_toTopOf="@+id/card_ARG"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,6 +89,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#616060"
         android:elevation="24dp"
         app:cardCornerRadius="8dp"
         app:layout_constraintBottom_toTopOf="@+id/card_URU"
@@ -118,7 +121,7 @@
             <TextView
                 style="@style/TextViewCard"
                 android:id="@+id/textView2"
-                android:text="@string/dolarstring"
+                android:text="@string/peso"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/et_argValue"
                 app:layout_constraintStart_toEndOf="@id/iv_flag_ARG"
@@ -159,6 +162,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
+        app:cardBackgroundColor="#616060"
         android:layout_marginBottom="16dp"
         android:elevation="24dp"
         app:cardCornerRadius="8dp"
@@ -191,7 +195,7 @@
             <TextView
                 style="@style/TextViewCard"
                 android:id="@+id/textView3"
-                android:text="@string/dolarstring"
+                android:text="@string/peso"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/et_uruValue"
                 app:layout_constraintStart_toEndOf="@id/iv_flag_URU"
@@ -233,6 +237,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="#616060"
         android:elevation="24dp"
         app:cardCornerRadius="8dp"
         app:layout_constraintBottom_toTopOf="@+id/reset"
@@ -264,7 +269,7 @@
             <TextView
                 style="@style/TextViewCard"
                 android:id="@+id/textView4"
-                android:text="@string/dolarstring"
+                android:text="@string/euro"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/et_eurValue"
                 app:layout_constraintStart_toEndOf="@id/iv_flag_EUR"

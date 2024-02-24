@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.view.KeyEvent
 import android.view.Menu
 import android.view.MenuItem
+import android.view.inputmethod.EditorInfo
 import android.widget.Toast
 import androidx.appcompat.view.menu.MenuBuilder
 import com.example.dollarinfo.data.DollarResponse
@@ -127,6 +128,7 @@ class MainActivity : AppCompatActivity() {
 
         binding.etArgValue.setOnClickListener {
             binding.etArgValue.text.clear()
+
         }
 
         binding.etUruValue.setOnClickListener {
@@ -245,7 +247,7 @@ class MainActivity : AppCompatActivity() {
 //            val formato = SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'", Locale.getDefault())
             val formato = SimpleDateFormat("HH:mm", Locale.getDefault())
             val hora = formato.format(calendar.time)
-            supportActionBar?.title = "Last Update: $date, $hora hs"
+            supportActionBar?.title = "Actualización: $date, $hora hs"
         }
     }
 

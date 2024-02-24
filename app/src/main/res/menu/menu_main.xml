@@ -6,28 +6,28 @@
         android:id="@+id/item_dollarDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:title="Dolar ARG"
+        android:title="Dolares ARG"
         android:icon="@drawable/icon_list"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
     <item
         android:id="@+id/item_uruDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:title="Dolar URU"
+        android:title="Cambio URU"
         android:icon="@drawable/icon_list"
         app:showAsAction="never"/>
     <item
         android:id="@+id/item_euroDetail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:title="Dolar EUROPA"
+        android:title="ARG a EURO"
         android:icon="@drawable/icon_list"
         app:showAsAction="never"/>
     <item
         android:id="@+id/item_exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:title="Exit"
+        android:title="Salir"
         android:icon="@drawable/icon_exit"
         app:showAsAction="never"/>
 </menu>

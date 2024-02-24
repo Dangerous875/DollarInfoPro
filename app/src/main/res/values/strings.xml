@@ -3,11 +3,13 @@
     <string name="dollar_argentino">Dolar Argentino =</string>
     <string name="dollar_uruguayo">Dolar Uruguayo =</string>
     <string name="enter_value">Enter value</string>
-    <string name="dolarstring">Dolar =</string>
+    <string name="dolarstring">USD =</string>
     <string name="value">Value</string>
     <string name="flag">Flag</string>
-    <string name="convert">Convert</string>
+    <string name="convert">Convertir</string>
     <string name="peso_arg">Peso ARG =</string>
     <string name="peso_uru">Peso URU =</string>
     <string name="reset_values">Reset and Update</string>
+    <string name="peso">PESO =</string>
+    <string name="euro">EURO =</string>
 </resources>

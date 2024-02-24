@@ -20,7 +20,7 @@ class DollarURUActivity : AppCompatActivity() {
         setContentView(binding.root)
         date = intent.getStringExtra("DATE").toString()
         time = intent.getStringExtra("TIME").toString()
-        supportActionBar?.title = "Dolares URU, Fecha: $date"
+        supportActionBar?.title = "Cambio URU, Fecha: $date"
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         initRecyclerView()
     }
