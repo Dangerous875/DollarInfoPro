@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_dollarDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Dolar ARG"
+        android:icon="@drawable/icon_list"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item_uruDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Dolar URU"
+        android:icon="@drawable/icon_list"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item_euroDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Dolar EUROPA"
+        android:icon="@drawable/icon_list"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/item_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Exit"
+        android:icon="@drawable/icon_exit"
+        app:showAsAction="never"/>
+</menu>
